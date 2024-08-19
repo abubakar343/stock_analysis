@@ -37,18 +37,6 @@
 
 2. The script will display the calculated metrics and visualizations.
 
-## Example
-
-Here's an example of how to use the project:
-
-```python
-import stock_analysis as sa
-
-# Fetch and analyze data for a specific stock
-data = sa.fetch_stock_data('AAPL')
-metrics = sa.calculate_metrics(data)
-sa.visualize_returns(metrics['returns'])
-```
 
 ## Contributing
 
